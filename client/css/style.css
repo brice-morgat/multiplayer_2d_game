@@ -1,0 +1,20 @@
+/* Menu de connexion */
+#gameDiv {
+    display: none;
+}
+
+/*La fenêtre de jeu*/
+#ctx {
+    border:1px solid #000000;
+    background-image: url('https://media.discordapp.net/attachments/772911315118718986/775005721166086154/Test_decor_1.png?width=1204&height=677');
+}
+/* Le tchat */
+#chat-text {
+    width: 500px;
+    height: 100px;
+    overflow-y: scroll;
+}
+/* La saisie du tchat */
+#chat-input {
+    width: 500px;
+}

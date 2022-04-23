@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+	<title>Game Online</title>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" type="text/css" href="/client/css/style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.1/socket.io.js" integrity="sha512-AcZyhRP/tbAEsXCCGlziPun5iFvcSUpEz2jKkx0blkYKbxU81F+iq8FURwPn1sYFeksJ+sDDrI5XujsqSobWdQ==" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<div id="signDiv">
+		Pseudo : <input id="signDiv-username" type="text"><br>
+		Mot de passe : <input id="signDiv-password">
+		<button id="signDiv-signIn">Se connecter</button>
+		<button id="signDiv-signUp">S'inscrire</button>
+	</div>
+	<div id="gameDiv">
+		<canvas id="ctx" width="500" height="500"></canvas>
+		<div id="chat-text" >
+			<div>Salut !</div>
+		</div>
+		<form id="chat-form">
+			<input id="chat-input" type="text"></input>
+		</form>
+	</div>
+</body>
+<footer>
+</footer>
+<!--Javascript-->
+<script src="/client/js/game.js"></script>
+<script src="/client/js/account.js"></script>
